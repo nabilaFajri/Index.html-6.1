@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    background-color: rgb(231, 50, 255);
+    align-items: flex-end;
+}
+.flex-container > div {
+    background-color: rgb(232, 155, 255);
+    margin: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
